@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+body{
+    background-color: black;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+
+
+
+.container{
+    width: 100%;
+}
+.container .con{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+
+}
+.container .con .item0item{
+    width: 24%;
+    height: 200px;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:877px) {
+    .container .con .gg{
+        display: none;
+    }
+    .container .con{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        gap: 20px;
+    
+    }
+    .container .con .item0item{
+        width: 34%;
+        height: 200px;
+        background-color: aqua;
+    }
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    body{
+        background-color: aqua;
+    }
+    h1{
+        color:red;
+    }
+}
+@media screen and (max-width:900px) {
+    body{
+        background-color: rgb(91, 37, 157);
+    }
+    h1{
+        color:rgb(195, 192, 192);
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    body{
+        background-color: rgb(47, 193, 21);
+    }
+    h1{
+        color:rgb(183, 194, 25);
+        visibility: visible;
+        opacity: 1;
+        transition: all 1s;
+    }
+}
+@media screen and (max-width:600px) {
+    body{
+        background-color: rgb(24, 201, 39);
+    }
+    h1{
+        color:rgb(66, 158, 185);
+    }
+}
